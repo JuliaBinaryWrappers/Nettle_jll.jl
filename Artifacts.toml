@@ -1,105 +1,105 @@
 [[Nettle]]
+arch = "i686"
+git-tree-sha1 = "8084212b22f57b35665fc611d716156b813cade8"
+libc = "musl"
+os = "linux"
+
+    [[Nettle.download]]
+    sha256 = "79742aa84b4a7c67095c4229cfdae5087fd75fce707f585b3c28b9d23ddacd8d"
+    url = "https://github.com/JuliaBinaryWrappers/Nettle_jll.jl/releases/download/Nettle-v3.4.1+1/Nettle.v3.4.1.i686-linux-musl.tar.gz"
+[[Nettle]]
+arch = "aarch64"
+git-tree-sha1 = "46ab23c0158a4d79efe15d04763a7d4b2e6aabd5"
+libc = "musl"
+os = "linux"
+
+    [[Nettle.download]]
+    sha256 = "b28d3cf46262cdffbd6ef36037070c0e17a50b488c2b75229940b1ef512e1330"
+    url = "https://github.com/JuliaBinaryWrappers/Nettle_jll.jl/releases/download/Nettle-v3.4.1+1/Nettle.v3.4.1.aarch64-linux-musl.tar.gz"
+[[Nettle]]
+arch = "i686"
+git-tree-sha1 = "a6e95463c996dc2655a2f11cc1a302c5040cfee8"
+os = "windows"
+
+    [[Nettle.download]]
+    sha256 = "00adba7a15c1e5a8c69148c55cc8b14e6efa8be061ce0807da502b89fbc1a95c"
+    url = "https://github.com/JuliaBinaryWrappers/Nettle_jll.jl/releases/download/Nettle-v3.4.1+1/Nettle.v3.4.1.i686-w64-mingw32.tar.gz"
+[[Nettle]]
 arch = "x86_64"
-git-tree-sha1 = "5651b6ee49b3da092da84d5aa950caca7049a862"
+git-tree-sha1 = "0b09396f456c54d28b994dbadb0c1113c93be7af"
+os = "windows"
+
+    [[Nettle.download]]
+    sha256 = "0925e03556604b59dc1fba59a44393f8fe661bfd14270c248ec9bdd85e04942a"
+    url = "https://github.com/JuliaBinaryWrappers/Nettle_jll.jl/releases/download/Nettle-v3.4.1+1/Nettle.v3.4.1.x86_64-w64-mingw32.tar.gz"
+[[Nettle]]
+arch = "armv7l"
+git-tree-sha1 = "5514ea8c5e03e583ae5a36e89da5893a34cad999"
 libc = "glibc"
 os = "linux"
 
     [[Nettle.download]]
-    sha256 = "7d6b417dbee5a0d28a5459d68d2c2d7d0861ba02bfd97ecb71ff3b152980e819"
-    url = "https://github.com/JuliaBinaryWrappers/Nettle_jll.jl/releases/download/Nettle-v3.4.1+0/Nettle.v3.4.1.x86_64-linux-gnu.tar.gz"
+    sha256 = "3568636d7bb3e6199f4fcd4b769bd13b17c473f8f0ac2fb690005fa1a973ac41"
+    url = "https://github.com/JuliaBinaryWrappers/Nettle_jll.jl/releases/download/Nettle-v3.4.1+1/Nettle.v3.4.1.armv7l-linux-gnueabihf.tar.gz"
+[[Nettle]]
+arch = "armv7l"
+git-tree-sha1 = "1467c2c7476a5f55c067fb78002cd706cb2cdcc8"
+libc = "musl"
+os = "linux"
+
+    [[Nettle.download]]
+    sha256 = "08b8b346f8ce9cf4bcfdaf726bdae08aac31f92228dd762747b62dfeb87cedfb"
+    url = "https://github.com/JuliaBinaryWrappers/Nettle_jll.jl/releases/download/Nettle-v3.4.1+1/Nettle.v3.4.1.armv7l-linux-musleabihf.tar.gz"
+[[Nettle]]
+arch = "i686"
+git-tree-sha1 = "dda39ca33fb1d960510fb3adb203a3d5b28d0b2c"
+libc = "glibc"
+os = "linux"
+
+    [[Nettle.download]]
+    sha256 = "b6b328702ce0c799d492100a97b90f245ed77cc55ed4bdd00977827f55124dee"
+    url = "https://github.com/JuliaBinaryWrappers/Nettle_jll.jl/releases/download/Nettle-v3.4.1+1/Nettle.v3.4.1.i686-linux-gnu.tar.gz"
 [[Nettle]]
 arch = "x86_64"
-git-tree-sha1 = "e816ad80cddfb2b8495fad09e10add638302db6d"
+git-tree-sha1 = "bb1fd699e08d76f0492c3b6c3f6fa79dd10924be"
+libc = "glibc"
+os = "linux"
+
+    [[Nettle.download]]
+    sha256 = "f75fcd52467209a427bb2341ff7424f40d039a836c3deebdc0a95a13b7c16bc7"
+    url = "https://github.com/JuliaBinaryWrappers/Nettle_jll.jl/releases/download/Nettle-v3.4.1+1/Nettle.v3.4.1.x86_64-linux-gnu.tar.gz"
+[[Nettle]]
+arch = "powerpc64le"
+git-tree-sha1 = "cd618f1d6e84e245a6a4d4f0143b57eb0fed9258"
+libc = "glibc"
+os = "linux"
+
+    [[Nettle.download]]
+    sha256 = "a932e3d78d6f0d9a146a654414bbcc287d2bc1669fb8c667028fdde87e2d6ade"
+    url = "https://github.com/JuliaBinaryWrappers/Nettle_jll.jl/releases/download/Nettle-v3.4.1+1/Nettle.v3.4.1.powerpc64le-linux-gnu.tar.gz"
+[[Nettle]]
+arch = "x86_64"
+git-tree-sha1 = "fbbdb2a59dcdda220a99c3a6abd74286251a4e7b"
 os = "macos"
 
     [[Nettle.download]]
-    sha256 = "c2b715e40809399eba43646d2cdb3fa1c99eb0f5ef3dd549f437944813532a87"
-    url = "https://github.com/JuliaBinaryWrappers/Nettle_jll.jl/releases/download/Nettle-v3.4.1+0/Nettle.v3.4.1.x86_64-apple-darwin14.tar.gz"
-[[Nettle]]
-arch = "i686"
-git-tree-sha1 = "58117561ab629b98f51c7148be884a21156618f4"
-os = "windows"
-
-    [[Nettle.download]]
-    sha256 = "3a28a34eb9168849e1b69612fc3c50c60d22a03b7684e10509a1c09e5dca4362"
-    url = "https://github.com/JuliaBinaryWrappers/Nettle_jll.jl/releases/download/Nettle-v3.4.1+0/Nettle.v3.4.1.i686-w64-mingw32.tar.gz"
+    sha256 = "049cfd0e04d0bfc6786189068cfa9bc4dcfbacc897c9268c049cdd44376810e7"
+    url = "https://github.com/JuliaBinaryWrappers/Nettle_jll.jl/releases/download/Nettle-v3.4.1+1/Nettle.v3.4.1.x86_64-apple-darwin14.tar.gz"
 [[Nettle]]
 arch = "aarch64"
-git-tree-sha1 = "7a9354af70cf345a35936ce51c456418ac38e8a8"
+git-tree-sha1 = "8f2e682c78a10e92a26e9e82a8e5fc151e701401"
 libc = "glibc"
 os = "linux"
 
     [[Nettle.download]]
-    sha256 = "2b20526079b970d58c6953efa4a9daf32637bc94d0765ca5158394d2e20b1ab2"
-    url = "https://github.com/JuliaBinaryWrappers/Nettle_jll.jl/releases/download/Nettle-v3.4.1+0/Nettle.v3.4.1.aarch64-linux-gnu.tar.gz"
-[[Nettle]]
-arch = "i686"
-git-tree-sha1 = "1a45fa14dfd548961ebde52656b5c287fcb8fb20"
-libc = "musl"
-os = "linux"
-
-    [[Nettle.download]]
-    sha256 = "168d527250c123fc2cb5f37e63fa7a8599b978c2a820d1edb652496f59e054ee"
-    url = "https://github.com/JuliaBinaryWrappers/Nettle_jll.jl/releases/download/Nettle-v3.4.1+0/Nettle.v3.4.1.i686-linux-musl.tar.gz"
+    sha256 = "595fb3a3c42bd97774a95e37ae9160fc6964ad0508f45425d01a0344819ae736"
+    url = "https://github.com/JuliaBinaryWrappers/Nettle_jll.jl/releases/download/Nettle-v3.4.1+1/Nettle.v3.4.1.aarch64-linux-gnu.tar.gz"
 [[Nettle]]
 arch = "x86_64"
-git-tree-sha1 = "1c069efb5f1c6f8326fd9578c65c086cdcc8afc6"
-os = "windows"
-
-    [[Nettle.download]]
-    sha256 = "08b9e77a2fd1cba837a08d687af179903a3bffd3a746acb5ac94555ae3af2268"
-    url = "https://github.com/JuliaBinaryWrappers/Nettle_jll.jl/releases/download/Nettle-v3.4.1+0/Nettle.v3.4.1.x86_64-w64-mingw32.tar.gz"
-[[Nettle]]
-arch = "powerpc64le"
-git-tree-sha1 = "1da3fabe2babdb5f1a804c2cbc4e0bbc0fc28984"
-libc = "glibc"
-os = "linux"
-
-    [[Nettle.download]]
-    sha256 = "237cb446dcb1d8bca45bfbc8adc0f7795a7a95de9dc5563def1ce267f0a8b3b9"
-    url = "https://github.com/JuliaBinaryWrappers/Nettle_jll.jl/releases/download/Nettle-v3.4.1+0/Nettle.v3.4.1.powerpc64le-linux-gnu.tar.gz"
-[[Nettle]]
-arch = "armv7l"
-git-tree-sha1 = "42a4d3b832b35e1b0156e803f9e10d10b42f8072"
+git-tree-sha1 = "b29539fc05d52f56ab6817787e2bbd2718e76b3b"
 libc = "musl"
 os = "linux"
 
     [[Nettle.download]]
-    sha256 = "8fb8c1ae21ff524ec90c27c99a484a25a1a086be70fbed6d6077896b3497ad38"
-    url = "https://github.com/JuliaBinaryWrappers/Nettle_jll.jl/releases/download/Nettle-v3.4.1+0/Nettle.v3.4.1.arm-linux-musleabihf.tar.gz"
-[[Nettle]]
-arch = "aarch64"
-git-tree-sha1 = "b38bcb82d9f438be541d31efa001d081dceffe67"
-libc = "musl"
-os = "linux"
-
-    [[Nettle.download]]
-    sha256 = "8bd7abb699db7f2099ec13203b59426b50289cceccd7aff0d9887943915f8593"
-    url = "https://github.com/JuliaBinaryWrappers/Nettle_jll.jl/releases/download/Nettle-v3.4.1+0/Nettle.v3.4.1.aarch64-linux-musl.tar.gz"
-[[Nettle]]
-arch = "i686"
-git-tree-sha1 = "bd571a2f375c3ab58e3a149264ba161f2c5efe0d"
-libc = "glibc"
-os = "linux"
-
-    [[Nettle.download]]
-    sha256 = "672614d66557d45831723615526a3021dfe4a6c12bacb2cd68d6414ded0fb490"
-    url = "https://github.com/JuliaBinaryWrappers/Nettle_jll.jl/releases/download/Nettle-v3.4.1+0/Nettle.v3.4.1.i686-linux-gnu.tar.gz"
-[[Nettle]]
-arch = "x86_64"
-git-tree-sha1 = "42e63a6d89805bcaa54a5aacd2928ea74f99b4be"
-libc = "musl"
-os = "linux"
-
-    [[Nettle.download]]
-    sha256 = "96994bbc354ca4025111cf2708f9f7a17fd68a637bcd6600ed9c14a63e0386b9"
-    url = "https://github.com/JuliaBinaryWrappers/Nettle_jll.jl/releases/download/Nettle-v3.4.1+0/Nettle.v3.4.1.x86_64-linux-musl.tar.gz"
-[[Nettle]]
-arch = "armv7l"
-git-tree-sha1 = "bc659e7c4f1d11c2d67448cc0442b828b290e00a"
-libc = "glibc"
-os = "linux"
-
-    [[Nettle.download]]
-    sha256 = "8f095b712566f8fd4eb57b1adcaed6faf856096d9c385375a832d9441566735e"
-    url = "https://github.com/JuliaBinaryWrappers/Nettle_jll.jl/releases/download/Nettle-v3.4.1+0/Nettle.v3.4.1.arm-linux-gnueabihf.tar.gz"
+    sha256 = "7be8760c34633121cfcbe691adc9bfe54be4527b6b59ebd4536fcf1407d5b032"
+    url = "https://github.com/JuliaBinaryWrappers/Nettle_jll.jl/releases/download/Nettle-v3.4.1+1/Nettle.v3.4.1.x86_64-linux-musl.tar.gz"
