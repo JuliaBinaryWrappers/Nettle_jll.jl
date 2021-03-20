@@ -3,20 +3,20 @@ export libhogweed, libnettle, nettle_hash
 
 using GMP_jll
 JLLWrappers.@generate_wrapper_header("Nettle")
-JLLWrappers.@declare_library_product(libhogweed, "libhogweed-4.dll")
-JLLWrappers.@declare_library_product(libnettle, "libnettle-6.dll")
+JLLWrappers.@declare_library_product(libhogweed, "libhogweed-5.dll")
+JLLWrappers.@declare_library_product(libnettle, "libnettle-7.dll")
 JLLWrappers.@declare_executable_product(nettle_hash)
 function __init__()
     JLLWrappers.@generate_init_header(GMP_jll)
     JLLWrappers.@init_library_product(
         libhogweed,
-        "bin\\libhogweed-4.dll",
+        "bin\\libhogweed-5.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libnettle,
-        "bin\\libnettle-6.dll",
+        "bin\\libnettle-7.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
