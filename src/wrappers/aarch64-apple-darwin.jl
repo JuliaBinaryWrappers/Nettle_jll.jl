@@ -10,13 +10,13 @@ function __init__()
     JLLWrappers.@generate_init_header(GMP_jll)
     JLLWrappers.@init_library_product(
         libhogweed,
-        "lib/libhogweed.6.9.dylib",
+        "lib/libhogweed.6.10.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libnettle,
-        "lib/libnettle.8.9.dylib",
+        "lib/libnettle.8.10.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
